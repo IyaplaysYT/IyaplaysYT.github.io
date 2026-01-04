@@ -1,10 +1,45 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+/* Default (Light) Mode Styles */
+body {
+    padding: 25px;
+    background-color: white;
     font-family:Arial, Helvetica, sans-serif;
-    line-height: 1em;
+    font-size: 16px;
+    color: black;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
 }
+
+/* Dark Mode Styles (applied when the class is toggled) */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#darkmode {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px 5px;
+    border-radius: 20px;
+    background-color: #2e2e2e;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+#darkmode.dark-mode-button {
+    background-color: #bbbbbb;
+}
+
+#darkmode #dmimg {
+    filter: invert(0);
+    transition: filter 0.3s; /* Smooth transition */
+}
+
+#darkmode #dmimg.dark-mode-image {
+    filter: invert(1);
+}
+
 #container{
     width: 100%;
     margin: auto;
