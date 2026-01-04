@@ -28,7 +28,7 @@ body.dark-mode {
 }
 
 #darkmode.dark-mode-button {
-    background-color: #bbbbbb;
+    background-color: #e2e2e2;
 }
 
 #darkmode #dmimg {
@@ -38,70 +38,4 @@ body.dark-mode {
 
 #darkmode #dmimg.dark-mode-image {
     filter: invert(1);
-}
-
-#container{
-    width: 100%;
-    margin: auto;
-}
-#mainHeader{
-    background-position: 0%;
-    background-color: rgb(255, 255, 255);
-    color: rgb(2, 2, 2);
-    min-height: 50px;
-    font-size: 40px;
-    margin: 0;
-}
-#mainnav{
-    background:rgb(77, 69, 73) ;
-    color:black;
-}
-#mainnav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-#mainnav li{
-    display:inline;
-    padding: 5px 10px;
-}
-#mainnav a{
-    color:black;
-    text-decoration:dotted;
-}
-#mainnav li:hover{
-    background: #787676;
-}
-#jumbo{
-    background-position: center center;
-    min-height: 200px;
-    text-align: center;
-}
-#jumbo h1{
-    color: black;
-    font-size: 45px;
-    padding-top: 30px;
-    line-height: 2em;
-}
-#jumbo h2{
- color:  rgb(205, 37, 37);   
- font-size: 100px;
-}
-#jumbo h3{
-    color: black;
-    font-size: 45px;
-    padding-top: 30px;
-    line-height: 2em;
-}
-#jumbo2{
-    background-position: center center;
-    min-height: 200px;
-    text-align: center;
-    font-size: 50px;
-}
-#jumbo2 h3{
-    color: black;
-    font-size: 45px;
-    padding-top: 30px;
-    line-height: 2em;
 }
