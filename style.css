@@ -57,10 +57,11 @@ body.dark-mode #navbar {
 #navbar a {
     color: black;
     padding: 20px 20px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
     text-decoration: none;
     text-align: center;
+    font-size: 20px;
     transition: background-color 0.3s, color 0.3s; /* Smooth transition */
 }
 body.dark-mode #navbar a {
@@ -74,4 +75,12 @@ body.dark-mode #navbar a {
 body.dark-mode #navbar a:hover {
     background-color: #222222;
     color: white;
+}
+
+#randomdiv {
+    width: 600px; 
+    margin-top: 100px; 
+    margin-left: 40px; 
+    border: 2px solid black; 
+    border-radius: 30px;
 }
