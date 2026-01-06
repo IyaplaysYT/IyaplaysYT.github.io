@@ -47,7 +47,24 @@
             <a href="../projects.html"> Projects </a>
             <a href="../contact.html"> Contact </a>
         </nav>
-        <canvas id="field"></canvas>
+        <canvas id="field" ></canvas>
+        <label style="position: fixed; top: 80px; right: 10px; color: white; z-index: 1000;">Type of shape: 
+            <select id="shape_type">
+            <option value="pyramid">Pyramid</option>
+            <option value="cube">Cube</option>
+            </select>
+        </label>
+
+        <label id="position" for="positioning" style="position: fixed; top: 120px; right: 10px; color: white; z-index: 1000;"> Position:
+            X <input type="number" id="position_x" style="margin-right: 5px;" value="0"> 
+            Y <input type="number" id="position_y" style="margin-right: 5px;" value="0">
+            Z <input type="number" id="position_z" style="margin-right: 5px;" value="2">
+        </label>
+        <label id="rotate" for="rotation" style="position: fixed; top: 160px; right: 10px; color: white; z-index: 1000;"> Rotate:
+            X <input type="number" id="rotation_x" style="margin-right: 5px;" value="0"> 
+            Y <input type="number" id="rotation_y" style="margin-right: 5px;" value="0">
+            Z <input type="number" id="rotation_z" style="margin-right: 5px;" value="0">
+        </label>
         <script src="index.js"></script>
     </body>
 </html>
